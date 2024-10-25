@@ -1,0 +1,62 @@
+* {
+    background-color: lavenderblush;
+}
+
+hr {
+    height: 5px;
+    background-color: black;
+}
+
+.logo1, .logo2 {
+    width: 100px;
+}
+
+.navbar{
+
+}
+
+.menuIcon {
+    flex-direction: column;
+}
+
+.menu a{
+    font-size: 12.8px;
+    text-decoration: none;
+    color: #ffffff;
+    /* margin-left: 15px; */
+    /* justify-content: left; */
+}
+
+
+.iconMenu a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 1rem;
+    justify-content: right;
+}
+
+.iconMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.menu a:hover{
+    color: #ed9725;
+    text-decoration: none;
+}
+
+.iconMenu a:hover{
+    color: #ed9725;
+    text-decoration: none;
+}
+
+body{
+    /* background-image: url("../Assets/cover1.png"); */
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    background-position: top;
+}
